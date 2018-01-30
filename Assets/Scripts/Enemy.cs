@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour {
-    public int target = 0;
-    public Transform exitPoint;
-    public Transform[] checkPoints;
-    public float navigationUpdate;
+    [SerializeField] private Transform exitPoint;
+    [SerializeField] private Transform[] checkPoints;
+    [SerializeField] private float navigationUpdate;
 
+    private int target = 0;
     private Transform enemy;
     private float navigationTime = 0;
 
