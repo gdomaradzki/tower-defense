@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour {
-    public static GameManager instance = null;
+public class GameManager : Singleton<GameManager> {
     public GameObject spawnPoint;
     public GameObject[] enemies;
     public int maxEnemiesOnScreen;
@@ -13,16 +12,6 @@ public class GameManager : MonoBehaviour {
     private int enemiesOnScreen = 0;
 
     const float spawnDelay = 0.5f;
-
-    private void Awake() {
-        if (instance == null) {
-            instance = this;
-        } else if (instance != this) {
-            Destroy(gameObject);
-        }
-
-        DontDestroyOnLoad(gameObject);
-    }
 
     // Use this for initialization
     void Start () {

@@ -36,7 +36,7 @@ public class Enemy : MonoBehaviour {
         if (collision.tag == "Checkpoint") {
             target++;
         } else if (collision.tag == "Finish") {
-            GameManager.instance.RemoveEnemyFromScreen();
+            GameManager.Instance.RemoveEnemyFromScreen();
             Destroy(gameObject);
         }
     }
