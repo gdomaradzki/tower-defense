@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 95129152706078556}
   - component: {fileID: 50035318006317886}
   - component: {fileID: 61825578675958774}
+  - component: {fileID: 114757713567365292}
   m_Layer: 0
   m_Name: Enemy_01
   m_TagString: Enemy
@@ -37,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1349289965896394}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.6454701, y: -0.98408496, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -105,6 +106,32 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114757713567365292
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1349289965896394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b21148fd53e447b4f820ed2b8da87b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: 0
+  exitPoint: {fileID: 4616635827939648, guid: 40a95027b3a9bab4ca67921608b5ad56, type: 2}
+  checkPoints:
+  - {fileID: 4314704114753552, guid: e5451c689baf1fd4db4098b7584fa151, type: 2}
+  - {fileID: 4268849694881138, guid: e5451c689baf1fd4db4098b7584fa151, type: 2}
+  - {fileID: 4280635580019988, guid: e5451c689baf1fd4db4098b7584fa151, type: 2}
+  - {fileID: 4433093552914254, guid: e5451c689baf1fd4db4098b7584fa151, type: 2}
+  - {fileID: 4717925322740742, guid: e5451c689baf1fd4db4098b7584fa151, type: 2}
+  - {fileID: 4935852492033042, guid: e5451c689baf1fd4db4098b7584fa151, type: 2}
+  - {fileID: 4330869877303458, guid: e5451c689baf1fd4db4098b7584fa151, type: 2}
+  - {fileID: 4272151338345966, guid: e5451c689baf1fd4db4098b7584fa151, type: 2}
+  - {fileID: 4537096429210270, guid: e5451c689baf1fd4db4098b7584fa151, type: 2}
+  - {fileID: 4215336008531538, guid: e5451c689baf1fd4db4098b7584fa151, type: 2}
+  - {fileID: 4072570732228012, guid: e5451c689baf1fd4db4098b7584fa151, type: 2}
+  navigationUpdate: 0.001
 --- !u!212 &212780924901742906
 SpriteRenderer:
   m_ObjectHideFlags: 1

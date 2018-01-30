@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4563637540506586}
   - component: {fileID: 114203295903307306}
-  - component: {fileID: 114045063000258942}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -35,24 +34,12 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1508308175144214}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.475582, y: 0.022641711, z: -0.034078054}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -2.475582, y: 0, z: -0.034078054}
+  m_LocalScale: {x: 0.4, y: 0.28, z: 0.33}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114045063000258942
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1508308175144214}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e13af7b362402ca46aae58171e27431a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameManager: {fileID: 1508308175144214}
 --- !u!114 &114203295903307306
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -64,7 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06f1cffbcec804c49adf8be5edb5926e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 1797937081153884, guid: 9c6ad6de8015ea946b41d17770d5c665, type: 2}
   enemies:
   - {fileID: 1349289965896394, guid: 3a78999e31dd20a4e8fc791794867f52, type: 2}
   - {fileID: 1221333442370130, guid: 342a8c077010fc1458676152cc152585, type: 2}

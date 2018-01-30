@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 95598067667136110}
   - component: {fileID: 50567722525125792}
   - component: {fileID: 61351401355673924}
+  - component: {fileID: 114051534057446926}
   m_Layer: 8
   m_Name: Enemy_02
   m_TagString: Enemy
@@ -97,7 +98,7 @@ Animator:
   m_GameObject: {fileID: 1221333442370130}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6e96f6ae33cd97b41b41de7e19efec1f, type: 2}
+  m_Controller: {fileID: 22100000, guid: 7ca314f26a9074b4db8d34de5b81161b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -105,6 +106,32 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114051534057446926
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1221333442370130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b21148fd53e447b4f820ed2b8da87b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: 0
+  exitPoint: {fileID: 4616635827939648, guid: 40a95027b3a9bab4ca67921608b5ad56, type: 2}
+  checkPoints:
+  - {fileID: 4314704114753552, guid: e5451c689baf1fd4db4098b7584fa151, type: 2}
+  - {fileID: 4268849694881138, guid: e5451c689baf1fd4db4098b7584fa151, type: 2}
+  - {fileID: 4280635580019988, guid: e5451c689baf1fd4db4098b7584fa151, type: 2}
+  - {fileID: 4433093552914254, guid: e5451c689baf1fd4db4098b7584fa151, type: 2}
+  - {fileID: 4717925322740742, guid: e5451c689baf1fd4db4098b7584fa151, type: 2}
+  - {fileID: 4935852492033042, guid: e5451c689baf1fd4db4098b7584fa151, type: 2}
+  - {fileID: 4330869877303458, guid: e5451c689baf1fd4db4098b7584fa151, type: 2}
+  - {fileID: 4272151338345966, guid: e5451c689baf1fd4db4098b7584fa151, type: 2}
+  - {fileID: 4537096429210270, guid: e5451c689baf1fd4db4098b7584fa151, type: 2}
+  - {fileID: 4215336008531538, guid: e5451c689baf1fd4db4098b7584fa151, type: 2}
+  - {fileID: 4072570732228012, guid: e5451c689baf1fd4db4098b7584fa151, type: 2}
+  navigationUpdate: 0.001
 --- !u!212 &212428816713635118
 SpriteRenderer:
   m_ObjectHideFlags: 1
